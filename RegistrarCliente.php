@@ -17,7 +17,7 @@
         <br>
         <br>
         <Input id="texto" name= "registrar" Type = Submit value = "Registrar">
-            <a href="login.html"><input id="texto" type="button" value="Cancelar"></a>
+            <a href="index.html"><input id="texto" type="button" value="Cancelar"></a>
         <br>
         
 
