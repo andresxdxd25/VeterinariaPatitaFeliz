@@ -28,7 +28,7 @@ if($nr == 1){
 }
 elseif($nr == 0){
     
-    header("Location: ../login.html");
+    header("Location: ../index.html");
 
 }
 
