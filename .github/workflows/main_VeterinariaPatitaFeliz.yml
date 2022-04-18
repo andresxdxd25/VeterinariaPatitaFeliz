@@ -4,7 +4,7 @@
 name: Build and deploy PHP app to Azure Web App - VeterinariaPatitaFeliz
 env:
   AZURE_WEBAPP_NAME: VeterinariaPatitaFeliz    # set this to your application's name
-  AZURE_WEBAPP_PACKAGE_PATH: 'login.html'      # set this to the path to your web app project, defaults to the repository root
+  AZURE_WEBAPP_PACKAGE_PATH: 'VeterinariaPatitaFeliz/login.html'      # set this to the path to your web app project, defaults to the repository root
 
 on:
   push:
