@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'VeterinariaPatitaFeliz'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_600650B5046543BFB7E4ED0562399095 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E79A022B5AC946AC96E3385DA8B41D42 }}
           package: .
