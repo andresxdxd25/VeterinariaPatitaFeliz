@@ -1,8 +1,8 @@
 <?php
-$dbhost = "localhost";
-$dbuser = "root";
-$dbpass = "";
-$dbname = "RelocaDB";
+$dbhost = "mi-veterinariadb.mysql.database.azure.com";
+$dbuser = "superadmin";
+$dbpass = "Grupo07#";
+$dbname = "mi-veterinariadb";
 
 $conn = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 if (!$conn){
