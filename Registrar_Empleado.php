@@ -35,7 +35,13 @@
 
 <?php
 //conexion a la Base de datos (Servidor,usuario,password)
-$conn = mysqli_connect("localhost", "root","", "RelocaDB");
+$dbhost = "mi-veterinariadb.mysql.database.azure.com";
+$dbuser = "superadmin@mi-veterinariadb";
+$dbpass = "Grupo07#";
+$dbname = "miveterinariadb";
+
+
+$conn = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname, 3306);
 if (!$conn) {
     die("Error de conexion: " . mysqli_connect_error());
 }
