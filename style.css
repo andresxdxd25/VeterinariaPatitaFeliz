@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+    background-image: url("https://st4.depositphotos.com/36924814/41600/i/450/depositphotos_416004146-stock-photo-medical-health-blue-cross-pattern.jpg")
+}
+
+h1{
+    color: blue;
+    font-size: 300%;
+}
+
+#texto, button {
+    width: 100%;
+    padding: 10px 10px;
+    border:1px solid lightgray;
+    border-radius: 4px;
+    margin: 2px;
+    width: 200px;
+    font-size:100%;
+    
+}
+
+
+p{
+    color: blue;
+    font-size: 200%;
+}
+
+table{
+    border: 2px solid #353a46;
+    background-color: #3abaf1;
+}
